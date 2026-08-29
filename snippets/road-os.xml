@@ -3,6 +3,9 @@
 
   <!-- road-OS additions -->
   <remove-project name="LineageOS/android" />
+  <remove-project name="LineageOS/android_packages_apps_Car_SystemUI" />
   
   <project path="android" name="road-os/android" />
+  <project path="packages/apps/Car/SystemUI" name="road-os/android_packages_apps_Car_SystemUI" groups="pdk-fs,pdk-cw-tvc" />
+
 </manifest>
