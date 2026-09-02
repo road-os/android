@@ -4,8 +4,10 @@
   <!-- road-OS additions -->
   <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_packages_apps_Car_SystemUI" />
+  <remove-project name="LineageOS/android_packages_services_Car" />
   
   <project path="android" name="road-os/android" remote="roados" />
   <project path="packages/apps/Car/SystemUI" name="road-os/android_packages_apps_Car_SystemUI" groups="pdk-fs,pdk-cw-tvc" remote="roados" />
+  <project path="packages/services/Car" name="road-os/android_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="roados" />
 
 </manifest>
